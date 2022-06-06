@@ -38,13 +38,13 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}> 
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>LC</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>wetter</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem sou</NavLinks>
+              <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem somos</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="discover" smooth={true} duration={500} spy={true} exact='true' offset={-80}>História</NavLinks>

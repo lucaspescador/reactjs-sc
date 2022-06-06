@@ -95,3 +95,25 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 `
+
+export const ShapeDivider = styled.div`
+    background-color: #f9f9f9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+ .svg{
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+ }
+
+
+.shape-fill{
+    fill: #010606;
+}
+`
